@@ -2,7 +2,7 @@ import react, { useState } from "react";
 
 function ListOfCars() {
   const [car, setCar] = useState([]);
-  const [newCar, setNewCar] = useState({ name: "", model: "", pages: 0 });
+  const [newCar, setNewCar] = useState({ name: "", model: "", Quantity: 0 });
   const handleChange = (e) => {
     const { name, value } = e.target;
     setNewCar({
